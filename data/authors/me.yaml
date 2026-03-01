@@ -1,8 +1,7 @@
-schema: "hugoblox/author/v1"
 ---
 # Fil: content/authors/me.md
-title: "Stian Andre Nerås"
-role: "Pedagogisk Leder"
+title: "Sondre Sverd Rekdal"
+role: "Allmennlege"
 location: "Kristiansand, Norge"
 
 email: "stian.neras@gmail.com"
