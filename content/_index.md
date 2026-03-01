@@ -5,20 +5,6 @@ summary: ''
 date: 2022-10-24
 type: landing
 
-_index.md
-5 KB
-﻿
-Aerion
-_aerion
- 
- 
----
-# Leave the homepage title empty to use the site title
-title: ''
-summary: ''
-date: 2022-10-24
-type: landing
-
 design:
   # Default section spacing
   spacing: '6rem'
