@@ -1,53 +1,109 @@
 ---
-title: 'Home'
-date: 2023-10-24
-type: landing
+# Fil: content/authors/me.md
+title: "Stian Andre Nerås"
+role: "Allmennlege"
+location: "Kristiansand, Norge"
 
-design:
-  # Default section spacing
-  spacing: '4rem'
+email: "stian.neras@gmail.com"
+phone: "993 76 706"
 
-# Note: `username` refers to the user's folder name in `content/authors/`
+# Nettsider (valgfritt)
+# website: "https://..."
+# linkedin: "https://www.linkedin.com/in/..."
+# github: "https://github.com/..."
 
-# Page sections
-sections:
-  - block: biography
-    content:
-      username: me
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download Résumé
-        url: uploads/resume.pdf
-    design:
-      show_status: false
-      banner:
-        # Upload your cover image to the `assets/media/` folder and reference it here
-        filename: kalen-emsley-Bkci_8qcdvQ-unsplash.jpg
-      biography:
-        # Customize the style of your biography text
-        style: 'text-align: justify; font-size: 0.8em;'
-      # Avatar customization
-      avatar:
-        size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: rounded # Options: circle (default), square, rounded
-  - block: experience
-    content:
-      username: me
-    design:
-      # Hugo date format
-      date_format: 'January 2006'
-      # Education or Experience section first?
-      is_education_first: false
-  - block: skills
-    content:
-      title: Skills & Hobbies
-      username: me
-  - block: awards
-    content:
-      title: Awards
-      username: me
-  - block: languages
-    content:
-      title: Languages
-      username: me
+summary: >
+  Jeg er en 37 år gammel pedagogisk leder som brenner for å stadig finne nye måter å utvikle meg på.
+  Jeg liker utfordringer som ikke alltid har en fastsatt retning, hvor jeg alene eller sammen med andre
+  kan komme frem til løsninger. Jeg er svært engasjert i bruk av teknologi og liker å stadig utvikle nye
+  løsninger og finne nye bruksområder for dette – både for profesjonell og privat bruk.
+
+# Legg profilbilde i assets/media/ og referer filnavnet her
+avatar: "avatar.jpg"
+
+# Hvis du bruker CV-knappen i index.md
+resume: "uploads/resume.pdf"
+
+experience:
+  - company: "Havlimyra barnehage"
+    position: "Pedagogisk leder"
+    location: "Kristiansand"
+    start_date: "2017-01-01"
+    end_date: ""   # tom betyr nåværende i mange oppsett
+    summary: ""
+    highlights:
+      - "Driftsansvar for egen avdeling"
+      - "Kunnskapsutvikling av personal"
+      - "IT-konsulent"
+      - "Foreldreveiledning"
+
+  - company: "Auglandstjønn barnehage"
+    position: "Pedagogisk leder"
+    location: "Kristiansand"
+    start_date: "2017-01-01"
+    end_date: "2017-12-31"
+    summary: ""
+    highlights:
+      - "Daglig drift på egen avdeling"
+      - "Kunnskapsutvikling av personal"
+      - "Foreldreveiledning"
+
+  - company: "Møllestua barnehage"
+    position: "Assistent"
+    location: "Kristiansand"
+    start_date: "2011-01-01"
+    end_date: "2016-12-31"
+    summary: ""
+    highlights:
+      - "En til en med barn"
+      - "Støtte til avdelinger"
+
+education:
+  - school: "UiA"
+    degree: "Barnehagelærerutdanning"
+    location: "Kristiansand"
+    start_date: "2013-01-01"
+    end_date: "2016-12-31"
+    summary: >
+      Under studiet fungerte jeg som hovedtillitsvalgt for alle trinnene i barnehagelærerutdanningen på UIA.
+      Dette ga meg både erfaring innen hvordan skape et godt samspill mellom utdanningsinstitusjonen og studentene,
+      samt var det pedagogisk interessant å diskutere med lærerne om hvordan man kunne forbedre studiene.
+      I tillegg fikk jeg mye trening innenfor det å snakke foran store forsamlinger.
+
+skills:
+  - name: "Ferdigheter"
+    level: ""
+    keywords:
+      - "Teknologientusiast"
+      - "Ledelse"
+      - "Tegn til tale"
+      - "ASK"
+      - "Gode kommunikasjonsevner"
+
+projects:
+  - name: "Scoping Review"
+    description: "Work in progress"
+  - name: "Egen Wiki"
+    description: "Satt opp egen Wiki"
+  - name: "YouTube-kanal"
+    description: "YouTube kanal for barnehagen"
+  - name: "3D-printer i barnehage"
+    description: "Bruk av 3D printer i barnehage"
+  - name: "Inspirasjonshefter"
+    description: "Inspirasjonshefter"
+
+# Referanser finnes ikke alltid som egen «standard»-seksjon i alle Hugo Blox blocks.
+# Derfor legger jeg dem også her som data du kan bruke i en markdown-seksjon (se punkt 2).
+references:
+  - name: "Kritin Lauvland"
+    role: "Pedagogisk leder, Havlimyra barnehage"
+    phone: "924 52 939"
+  - name: "Sondre Sverd Rekdal"
+    role: "Allmennlege, Medforfatter Scoping Review"
+    phone: "934 36 086"
+  - name: "Thomas Bjerregaard Bertelsen"
+    role: "Psykolog og forsker/statistiker, ABUP – Medforfatter Scoping Review"
+    phone: "920 81 251"
+
+layout: "author"
 ---
