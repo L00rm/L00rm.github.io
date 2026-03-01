@@ -1,6 +1,9 @@
+schema: "hugoblox/author/v1"
+slug: "me"
+is_owner: true
 ---
 # Fil: content/authors/me.md
-title: "Sondre Sverd Rekdal"
+title: "Stian Andre Nerås"
 role: "Allmennlege"
 location: "Kristiansand, Norge"
 
