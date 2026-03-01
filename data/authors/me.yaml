@@ -1,139 +1,110 @@
 schema: "hugoblox/author/v1"
-slug: "me"
-is_owner: true
-name:
-  display: "Stian Andre Nerås"
-  given: "Shiung Wu"
-  family: "Chien"
-  pronunciation: "Chien Shiung Wu"
-  pronouns: "she/her"
-status:
-  icon: "☕️"
-role: "Director of Cloud Infrastructure"
-bio: "I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.\n"
-affiliations:
-  - name: "GenCoin"
-    url: "https://www.example.com/"
-links:
-  - icon: "at-symbol"
-    url: "mailto:your-email@example.com"
-    label: "E-mail Me"
-  - icon: "brands/x"
-    url: "https://x.com/MakeOwnable"
-  - icon: "brands/github"
-    url: "https://github.com/gcushen"
-  - icon: "brands/linkedin"
-    url: "https://www.linkedin.com/"
-  - icon: "brands/instagram"
-    url: "https://www.instagram.com/"
-education:
-  - degree: "PhD Artificial Intelligence"
-    institution: "Stanford University"
-    start: "2016-01-01"
-    end: "2020-12-31"
-    summary: "Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.\n"
-    button:
-      text: "Read Thesis"
-      url: "https://example.com"
-  - degree: "MEng Artificial Intelligence"
-    institution: "Massachusetts Institute of Technology"
-    start: "2016-01-01"
-    end: "2020-12-31"
-    summary: "GPA: 3.8/4.0
+---
+# Fil: content/authors/me.md
+title: "Stian Andre Nerås"
+role: "Pedagogisk Leder"
+location: "Kristiansand, Norge"
 
+email: "stian.neras@gmail.com"
+phone: "993 76 706"
 
-      Courses included:
+# Nettsider (valgfritt)
+# website: "https://..."
+# linkedin: "https://www.linkedin.com/in/..."
+# github: "https://github.com/..."
 
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+summary: >
+  Jeg er en 35 år gammel pedagogisk leder som brenner for å stadig finne nye måter å utvikle meg på.
+  Jeg liker utfordringer som ikke alltid har en fastsatt retning, hvor jeg alene eller sammen med andre
+  kan komme frem til løsninger. Jeg er svært engasjert i bruk av teknologi og liker å stadig utvikle nye
+  løsninger og finne nye bruksområder for dette – både for profesjonell og privat bruk.
 
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+# Legg profilbilde i assets/media/ og referer filnavnet her
+avatar: "avatar.jpg"
 
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit\n"
-  - degree: "BSc Artificial Intelligence"
-    institution: "Massachusetts Institute of Technology"
-    start: "2016-01-01"
-    end: "2020-12-31"
-    summary: "GPA: 3.4/4.0
+# Hvis du bruker CV-knappen i index.md
+resume: "uploads/resume.pdf"
 
-
-      Courses included:
-
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit\n"
 experience:
-  - role: "Director of Cloud Infrastructure"
-    org: "GenCoin"
-    start: "2021-01-01"
-    summary: "Responsibilities include:
+  - company: "Havlimyra barnehage"
+    position: "Pedagogisk leder"
+    location: "Kristiansand"
+    start_date: "2017-01-01"
+    end_date: ""   # tom betyr nåværende i mange oppsett
+    summary: ""
+    highlights:
+      - "Driftsansvar for egen avdeling"
+      - "Kunnskapsutvikling av personal"
+      - "IT-konsulent"
+      - "Foreldreveiledning"
 
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - company: "Auglandstjønn barnehage"
+    position: "Pedagogisk leder"
+    location: "Kristiansand"
+    start_date: "2017-01-01"
+    end_date: "2017-12-31"
+    summary: ""
+    highlights:
+      - "Daglig drift på egen avdeling"
+      - "Kunnskapsutvikling av personal"
+      - "Foreldreveiledning"
 
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - company: "Møllestua barnehage"
+    position: "Assistent"
+    location: "Kristiansand"
+    start_date: "2011-01-01"
+    end_date: "2016-12-31"
+    summary: ""
+    highlights:
+      - "En til en med barn"
+      - "Støtte til avdelinger"
 
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit\n"
-  - role: "Backend Software Engineer"
-    org: "X"
-    start: "2016-01-01"
-    end: "2020-12-31"
-    summary: "Responsibilities include:
+education:
+  - school: "UiA"
+    degree: "Barnehagelærerutdanning"
+    location: "Kristiansand"
+    start_date: "2013-01-01"
+    end_date: "2016-12-31"
+    summary: >
+      Under studiet fungerte jeg som hovedtillitsvalgt for alle trinnene i barnehagelærerutdanningen på UIA.
+      Dette ga meg både erfaring innen hvordan skape et godt samspill mellom utdanningsinstitusjonen og studentene,
+      samt var det pedagogisk interessant å diskutere med lærerne om hvordan man kunne forbedre studiene.
+      I tillegg fikk jeg mye trening innenfor det å snakke foran store forsamlinger.
 
-      - Migrated infrastructure to a new data center
-
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit\n"
 skills:
-  - name: "Technical Skills"
-    items:
-      - label: "Python"
-        level: 4
-      - label: "RStudio"
-        level: 5
-      - label: "PyTorch"
-        level: 2
-  - name: "Hobbies"
-    color: "#eeac02"
-    color_border: "#f0bf23"
-    items:
-      - label: "Hiking"
-        level: 3
-      - label: "Cats"
-        level: 5
-      - label: "Photography"
-        level: 4
-languages:
-  - name: "English"
-    level: 5
-  - name: "Chinese"
-    level: 4
-  - name: "Portuguese"
-    level: 1
-awards:
-  - title: "Neural Networks and Deep Learning"
-    url: "https://www.coursera.org/learn/neural-networks-deep-learning"
-    date: "2023-11-25"
-    awarder: "Coursera"
-    icon: "brands/coursera"
-    summary: "I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.\n"
-  - title: "Blockchain Fundamentals"
-    url: "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-    date: "2023-07-01"
-    awarder: "edX"
-    icon: "brands/edx"
-    summary: "Learned:
+  - name: "Ferdigheter"
+    level: ""
+    keywords:
+      - "Teknologientusiast"
+      - "Ledelse"
+      - "Tegn til tale"
+      - "ASK"
+      - "Gode kommunikasjonsevner"
 
-      - Synthesize your own blockchain solutions
+projects:
+  - name: "Scoping Review"
+    description: "Work in progress"
+  - name: "Egen Wiki"
+    description: "Satt opp egen Wiki"
+  - name: "YouTube-kanal"
+    description: "YouTube kanal for barnehagen"
+  - name: "3D-printer i barnehage"
+    description: "Bruk av 3D printer i barnehage"
+  - name: "Inspirasjonshefter"
+    description: "Inspirasjonshefter"
 
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
+# Referanser finnes ikke alltid som egen «standard»-seksjon i alle Hugo Blox blocks.
+# Derfor legger jeg dem også her som data du kan bruke i en markdown-seksjon (se punkt 2).
+references:
+  - name: "Kritin Lauvland"
+    role: "Pedagogisk leder, Havlimyra barnehage"
+    phone: "924 52 939"
+  - name: "Sondre Sverd Rekdal"
+    role: "Allmennlege, Medforfatter Scoping Review"
+    phone: "934 36 086"
+  - name: "Thomas Bjerregaard Bertelsen"
+    role: "Psykolog og forsker/statistiker, ABUP – Medforfatter Scoping Review"
+    phone: "920 81 251"
 
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm\n"
-  - title: "Object-Oriented Programming in R"
-    url: "https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r"
-    certificate_url: "https://www.datacamp.com"
-    date: "2023-01-21"
-    awarder: "datacamp"
-    icon: "brands/datacamp"
-    summary: "Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.\n"
+layout: "author"
+---
